@@ -11,17 +11,17 @@ font-family: 'Silkscreen', cursive; */
 --slate-gray: #6b717eff;
 --independence: #38405fff; */
 
-@import './variables/colores';
-@import './variables/extend';
+@import "./variables/colores";
+@import "./variables/extend";
 
-@import './section/index.scss';
-@import './section/tcg.scss';
-@import './section/juegosDeMesa.scss';
-@import './section/accesorios.scss';
-@import './section/eventos.scss';
-@import './section/galeria.scss';
-@import './section/contacto.scss';
-@import './section/mediaqueries.scss';
+@import "./section/index.scss";
+@import "./section/tcg.scss";
+@import "./section/juegosDeMesa.scss";
+@import "./section/accesorios.scss";
+@import "./section/eventos.scss";
+@import "./section/galeria.scss";
+@import "./section/contacto.scss";
+@import "./section/mediaqueries.scss";
 
 * {
   margin: 0;
@@ -84,6 +84,8 @@ body {
     padding: 10px;
     &:hover {
       transform: skew(-12deg);
+      transition: 0.2s;
+      text-shadow: 0 0 10px $colorShadow;
     }
   }
   .tituloDos {
@@ -95,6 +97,8 @@ body {
     padding: 10px;
     &:hover {
       transform: skew(-12deg);
+      transition: 0.2s;
+      text-shadow: 0 0 10px $colorShadow;
     }
   }
   .tituloTres {
@@ -105,6 +109,10 @@ body {
     font-weight: bold;
     margin: 10px;
     padding: 10px;
+    &:hover {
+      transform: skew(-12deg);
+      transition: 0.2s;
+    }
   }
 }
 

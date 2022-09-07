@@ -233,7 +233,9 @@ body {
     margin: 10px;
     padding: 10px; }
     body .tituloUno:hover {
-      transform: skew(-12deg); }
+      transform: skew(-12deg);
+      transition: 0.2s;
+      text-shadow: 0 0 10px #454546; }
   body .tituloDos {
     font-family: "Silkscreen", cursive;
     text-align: center;
@@ -242,7 +244,9 @@ body {
     margin: 10px;
     padding: 10px; }
     body .tituloDos:hover {
-      transform: skew(-12deg); }
+      transform: skew(-12deg);
+      transition: 0.2s;
+      text-shadow: 0 0 10px #454546; }
   body .tituloTres {
     font-family: "Silkscreen", cursive;
     text-align: center;
@@ -251,6 +255,9 @@ body {
     font-weight: bold;
     margin: 10px;
     padding: 10px; }
+    body .tituloTres:hover {
+      transform: skew(-12deg);
+      transition: 0.2s; }
 
 main {
   min-height: 90vh;
