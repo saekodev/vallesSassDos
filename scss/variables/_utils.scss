@@ -1,4 +1,11 @@
-%estiloParrafo {
-    text-align: center;
-    font-size: 30px;
+/* EXTEND */
+
+/* MIXIN */
+@mixin inputPadding {
+  padding: 10px;
+  border-radius: 10px;
+  &:focus {
+    background-color: #d7dde9;
+    transition: 0.5s;
+  }
 }

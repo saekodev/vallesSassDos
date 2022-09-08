@@ -9,6 +9,8 @@ font-family: 'Silkscreen', cursive; */
 --uranian-blue: #a6d9f7ff;
 --slate-gray: #6b717eff;
 --independence: #38405fff; */
+/* EXTEND */
+/* MIXIN */
 .mainIndex {
   justify-content: space-around; }
   .mainIndex .contenidoMesa {
@@ -123,37 +125,16 @@ body .mainEventos .spanEventos {
   padding: 20px;
   flex-direction: column; }
 
-input[type="text"] {
-  text-align: center;
+.inputContacto {
+  padding: 10px;
   border-radius: 10px; }
 
-input[type="date"] {
-  text-align: center;
+.formularioMesa .formularioContacto textarea, .formularioMesa .formularioContacto input {
+  padding: 10px;
   border-radius: 10px; }
-
-input[type="email"] {
-  text-align: center;
-  border-radius: 10px; }
-
-textarea {
-  text-align: center;
-  border-radius: 10px; }
-
-input[type="text"]:focus {
-  background-color: #d7dde9;
-  transition: 0.5s; }
-
-input[type="date"]:focus {
-  background-color: #d7dde9;
-  transition: 0.5s; }
-
-input[type="email"]:focus {
-  background-color: #d7dde9;
-  transition: 0.5s; }
-
-textarea:focus {
-  background-color: #d7dde9;
-  transition: 0.5s; }
+  .formularioMesa .formularioContacto textarea:focus, .formularioMesa .formularioContacto input:focus {
+    background-color: #d7dde9;
+    transition: 0.5s; }
 
 .contactoAccordion {
   margin: 10px;
