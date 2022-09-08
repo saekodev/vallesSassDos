@@ -75,10 +75,10 @@ body {
       max-width: 100vw;
     }
   }
-  .tituloUno {
+
+.titulo {
     font-family: "Press Start 2P";
     text-align: center;
-    font-size: 46px;
     font-weight: bold;
     margin: 10px;
     padding: 10px;
@@ -88,32 +88,15 @@ body {
       text-shadow: 0 0 10px $colorShadow;
     }
   }
-  .tituloDos {
-    font-family: "Silkscreen", cursive;
-    text-align: center;
-    font-size: 40px;
-    font-weight: bold;
-    margin: 10px;
-    padding: 10px;
-    &:hover {
-      transform: skew(-12deg);
-      transition: 0.2s;
-      text-shadow: 0 0 10px $colorShadow;
-    }
-  }
-  .tituloTres {
-    font-family: "Silkscreen", cursive;
-    text-align: center;
-    font-size: 30px;
-    font-style: oblique;
-    font-weight: bold;
-    margin: 10px;
-    padding: 10px;
-    &:hover {
-      transform: skew(-12deg);
-      transition: 0.2s;
-    }
-  }
+
+.tituloUno {
+@extend .titulo;
+}
+.tituloDos {
+@extend .titulo;
+}
+.tituloTres {
+@extend .titulo;
 }
 
 main {
@@ -165,4 +148,5 @@ footer {
       text-shadow: 0 0 10px #81b5d3;
     }
   }
+}
 }
