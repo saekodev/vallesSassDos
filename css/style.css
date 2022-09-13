@@ -104,6 +104,9 @@ body .mainEventos .spanEventos {
 .gridGaleria img {
   max-width: 300px; }
 
+.imgGale {
+  max-width: 90%; }
+
 .mainContacto section {
   margin: 10px;
   padding: 10px;
