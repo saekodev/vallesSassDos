@@ -1,5 +1,8 @@
 /* class:"col-xs-2 col-md-3 col-lg-4" */
 @media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+  }
   .contenidoMesa {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -8,6 +11,12 @@
   }
   .navbarBusqueda {
     display: none;
+  }
+  .navbarMesa {
+    display: none;
+  }
+  .titulo {
+    max-width: fit-content;
   }
 }
 
@@ -29,6 +38,9 @@
   }
   .navbarBusqueda {
     display: none;
+  }
+  .titulo {
+    max-width: fit-content;
   }
   form {
     display: none;

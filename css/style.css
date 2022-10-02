@@ -84,7 +84,10 @@ body .mainEventos .spanEventos {
   padding: 20px;
   border: dashed black 2px; }
 
-.imgGale {
+.galeriaCarousel {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
   max-width: 90%; }
 
 .mainContacto section {
@@ -128,12 +131,18 @@ body .mainEventos .spanEventos {
 
 /* class:"col-xs-2 col-md-3 col-lg-4" */
 @media (max-width: 768px) {
+  .header {
+    flex-direction: column; }
   .contenidoMesa {
     grid-template-columns: repeat(2, 1fr); }
   .gridGaleria {
     grid-template-columns: repeat(2, 1fr); }
   .navbarBusqueda {
-    display: none; } }
+    display: none; }
+  .navbarMesa {
+    display: none; }
+  .titulo, body .tituloUno, body .tituloDos, body .tituloTres {
+    max-width: fit-content; } }
 
 @media (max-width: 576px) {
   .header {
@@ -148,6 +157,8 @@ body .mainEventos .spanEventos {
     width: 180px; }
   .navbarBusqueda {
     display: none; }
+  .titulo, body .tituloUno, body .tituloDos, body .tituloTres {
+    max-width: fit-content; }
   form {
     display: none; } }
 
